@@ -1,0 +1,104 @@
+ .nav-link:focus {
+	outline: none;
+	box-shadow: none;
+  }
+
+.miamimed-questionary-repeater{
+	cursor: pointer;
+}
+
+.miamimed-telehealth-edit-user-dermatologist{
+	font-size: 17px;
+    font-weight: 600;
+}
+
+em.icon {
+	cursor: pointer;
+}
+
+.miamimed_users_dropdown_deactivate {
+	cursor: pointer;
+}
+.miamimed_users_dropdown_activate {
+	cursor: pointer;
+}
+
+.toplevel_page_pp-capabilities-dashboard{
+	display: none;
+}
+
+.pp-version-notice-bold-purple{
+	display: none;
+}
+
+ div#nsl-custom-login-form-main{
+	display: none !important;
+ }
+
+ #miamimed_login_security_submit{
+	width: 85px;
+ }
+
+ /* Custom Switch Css */
+
+ .miamimed-telehealth-activate-user-switch {
+	position: relative;
+	display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .miamimed-telehealth-activate-user-switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  .miamimed-telehealth-activate-user-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .miamimed-telehealth-activate-user-slider:before {
+	position: absolute;
+	content: "";
+	border-radius: 50px;
+    height: 16px;
+    width: 16px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .miamimed-telehealth-activate-user-slider {
+	background-color: #2196F3;
+  }
+  
+  input:focus + .miamimed-telehealth-activate-user-slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .miamimed-telehealth-activate-user-slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .miamimed-telehealth-activate-user-slider.miamimed-telehealth-activate-user-round {
+	border-radius: 34px;
+  }
+
+  .ays-survey-section-head-wrap{
+	display: none !important;
+  }
+  
